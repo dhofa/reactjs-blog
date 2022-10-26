@@ -31,9 +31,9 @@ export default function Create() {
       method: "POST",
       headers: {'Content-type':'Application/json'},
       body: JSON.stringify(formData),
-    }).then((res) => {
-      res.json()
-      console.log('res =>', res);
+    }).then(function(response) {
+      return response.json();
+    }).then((_) => {
       navigate("/posts")
     })
   }
