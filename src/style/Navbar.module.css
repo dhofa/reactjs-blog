@@ -1,0 +1,16 @@
+.wrap {
+  @apply flex justify-between text-stone-900 px-4 py-2 shadow-lg
+}
+
+.wrap img {
+  @apply w-12
+}
+
+.wrap nav {
+  @apply flex gap-5
+}
+
+.wrap button {
+  @apply bg-slate-100 rounded-md px-4 py-2 hover:bg-slate-300 
+
+}
